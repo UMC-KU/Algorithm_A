@@ -1,4 +1,4 @@
-from ast import While
+
 import sys
 
 N, K = list(map(int,sys.stdin.readline().rstrip().split()))
