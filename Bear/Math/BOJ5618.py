@@ -1,4 +1,3 @@
-from cmath import sqrt
 from math import gcd
 import sys
 

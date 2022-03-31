@@ -1,7 +1,6 @@
 import sys
 
 def isPrime(a):
-
     if a == 1:
         return False
     if a == 2 or a == 3:
@@ -19,7 +18,6 @@ cnt = 0
 
 for item in list:
     if isPrime(item):
-        print(item)
         cnt += 1
     
 print(cnt)
