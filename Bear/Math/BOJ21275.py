@@ -16,10 +16,11 @@ for i in range(2, 37):
         try:
             tempB = int(B, j)
             if tempA == tempB:
-                cnt += 1
-                x = tempA
-                a = i
-                b = j
+                if i != j:
+                    cnt += 1
+                    x = tempA
+                    a = i
+                    b = j
         except:
             continue
 
