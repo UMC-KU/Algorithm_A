@@ -13,3 +13,5 @@ for i in range(0,n):
 
 for i in range (0, n):
     print(answer[i])
+
+cnt = 1
