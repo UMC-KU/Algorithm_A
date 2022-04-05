@@ -5,7 +5,6 @@ def GCD(a, b):
         return a
     return GCD(b, a % b)
 
-
 a, b = map(int, input().split())
 
 gcd = GCD(max(a, b), min(a, b))
