@@ -35,4 +35,5 @@ int main(void) {
 		//cout << s2 << endl;
 	} while (s != s2);
 	cout << cycle;
+	// 안녕하세요
 }
